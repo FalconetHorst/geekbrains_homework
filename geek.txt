@@ -1,0 +1,6 @@
+#include <iostream>
+
+int main(){
+int a = 1, b=2,c=3,d=4;
+std::cout <<  (static_cast<float>(a) * (static_cast<float>(b) + (static_cast<float>(c) / static_cast<float>(d))));
+};
